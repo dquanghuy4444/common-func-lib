@@ -1,8 +1,4 @@
-function arrayEquals(a: any[], b: any[]):boolean {
-	return Array.isArray(a) &&
-      Array.isArray(b) &&
-      a.length === b.length &&
-      a.every((val, index) => val === b[index]);
-}
+import * as PHarray from './array';
+import * as PHnumber from './number';
 
-export {arrayEquals};
+export {PHarray , PHnumber};
